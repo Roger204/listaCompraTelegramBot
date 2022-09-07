@@ -3,11 +3,11 @@
 Codigo para implementar un sencillo bot de Telegram que se puede compartir una lista de la compra entre varias personas
 
 ## Commands
-Los comandos soportados son:
-  ad: Add -> Añadir nuevo elemento a la lista
-  pr: Print -> Retorna la lista actual
-  dl: Delete -> Borra un elemento de la lista
-  cl: Clear -> Borra toda la lista"
+Los comandos soportados son: </br>
+&nbsp;&nbsp;**ad:** Add -> Añadir nuevo elemento a la lista</br>
+&nbsp;&nbsp;**pr:** Print -> Retorna la lista actual</br>
+&nbsp;&nbsp;**dl**: Delete -> Borra un elemento de la lista</br>
+&nbsp;&nbsp;**cl**: Clear -> Borra toda la lista"</br>
 
 ## Example
 <p align="center">
