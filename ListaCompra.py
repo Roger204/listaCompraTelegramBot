@@ -69,6 +69,7 @@ def handle(msg):
     ## Start Command ##
     if(command == 'start'):
         bot.sendMessage(chat_id,startText)
+        return
 
     if(checkChatIds(chat_id) == False):
         return
