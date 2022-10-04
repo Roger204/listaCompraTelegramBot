@@ -58,8 +58,8 @@ def handle(msg):
         if(len(element)>20):
             bot.sendMessage(chat_id, 'Elemento demasiado largo')
             return
-        if(element.isalpha() == False):
-            bot.sendMessage(chat_id, 'No se ha borrado ningun elemento')
+        if(element.isalpha() == False and element.find(' ') == -1):
+            bot.sendMessage(chat_id, 'No se ha podido leer ningun elemento')
             print("texto invalido, solo se aceptan letras")
             return
 
